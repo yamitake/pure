@@ -1,4 +1,18 @@
-Pure
+Pure-scss
+====
+pure.cssをscssで使える様にカスタマイズした物です。
+
+
+-compressed
+sass --style compressed src/pure.scss:build/pure-min.css
+
+-最終成果物
+sass --watch src:build
+
+-customize
+pure.scssを編集し必要なコンポーネントをimportする。
+もしくは自分で記述を増やしカスタマイズを行って行く。
+
 ====
 
 [![Pure](http://f.cl.ly/items/2y0M0E2Q3a2H0z1N1Y19/pure-banner.png)][Pure]
